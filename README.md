@@ -4,7 +4,10 @@ School assignment from the 2. semester of the computer science degree at KEA.
 ## Assignment
 ### Description
 Create a simple website with spring-boot and thymeleaf. 
+
 The content of the website is free of choice.
+
+You have 1 week.
 
 ### Goal
  - Get familiar with basic html and css.
