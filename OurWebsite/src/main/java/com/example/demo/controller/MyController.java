@@ -8,7 +8,18 @@ public class MyController {
 
     @GetMapping("/")
     public String index(){
-        return "index";
+        return "headPage";
     }
+
+    @GetMapping("/aboutUs")
+    public String aboutUs(){
+        return "aboutUs";
+    }
+
+    @GetMapping("/navbar")
+    public String navbar(){
+        return "navbar";
+    }
+
 
 }
