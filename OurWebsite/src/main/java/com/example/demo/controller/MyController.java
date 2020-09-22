@@ -21,19 +21,19 @@ public class MyController {
         return "navbar";
     }
 
-    @GetMapping("/matias")
-    public String matias(){
-        return "matias";
+    @GetMapping("/hardisk")
+    public String hardisk(){
+        return "Hardisk";
     }
 
-    @GetMapping("/alexander")
-    public String alexander(){
-        return "alexander";
+    @GetMapping("/CPU")
+    public String cpu(){
+        return "CPU";
     }
 
-    @GetMapping("/daniel")
+    @GetMapping("/ram")
     public String daniel(){
-        return "daniel";
+        return "Ram";
     }
 
 }
