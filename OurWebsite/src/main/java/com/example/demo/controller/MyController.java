@@ -32,8 +32,8 @@ public class MyController {
     }
 
     @GetMapping("/ram")
-    public String daniel(){
-        return "Ram";
+    public String ram(){
+        return "ram";
     }
 
 }
