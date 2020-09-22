@@ -32,11 +32,6 @@ body{
     color: beige;
 }
 
-.navbar a:hover{
-    text-decoration: none;
-    color: blue;
-}
-
 .navbar a:visited{
     color: beige;
 }
