@@ -17,23 +17,21 @@ body, html {
     background-color: #333;
     width: 100%;
     height: 65px;
+    vertical-align: middle;
 }
 
 .navbar a {
     position: relative;
-    display: table-cell;
-    vertical-align: middle;
     text-align: center;
     transition: all 0.3s ease;
     padding: 0px 15px 0px 15px;
-    height: 65px;
     text-decoration: none;
     color: royalblue;
 }
 
 .navbar a:hover{
     text-decoration: none;
-    background-color: #444;
+    color: blue;
 }
 
 .navbar a:visited{
@@ -43,8 +41,10 @@ body, html {
 .navbar-brand {
     font-weight: bold;
     font-size: 30px;
+    line-height: 65px;
 }
 
 .nav-item{
     font-size: 20px;
+    line-height: 60px;
 }
