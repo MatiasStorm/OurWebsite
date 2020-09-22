@@ -36,4 +36,9 @@ public class MyController {
         return "ram";
     }
 
+    @GetMapping("/gpu")
+    public String gpu(){
+        return "gpu";
+    }
+
 }

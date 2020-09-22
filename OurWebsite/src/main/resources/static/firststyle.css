@@ -36,15 +36,6 @@ p {
     color: beige;
 }
 
-.navbar a:hover{
-    text-decoration: none;
-    color: blue;
-}
-
-.navbar a:visited{
-    color: beige;
-}
-
 .navbar-brand {
     font-weight: bold;
     font-size: 30px;
@@ -54,4 +45,55 @@ p {
 .nav-item{
     font-size: 20px;
     line-height: 60px;
+}
+
+.nav-item:hover {
+    color: moccasin;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.image-size {
+    min-width: 5vw;
+    min-height: 5vh;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+.section-grey {
+    background-color: #555;
+    padding: 30px 0px;
+    color: beige;
+}
+
+.section-darkgrey {
+    background-color: #333;
+    padding: 30px 0px;
+    color: beige;
+}
+
+.section-lightgrey {
+    background-color: #777;
+    padding: 30px 0px;
+    color: beige;
+}
+
+
+
+.p-1 {
+    padding: 1rem;
+}
+.p-2 {
+    padding: 2rem;
+}
+.p-3 {
+    padding: 3rem;
+}
+.p-4 {
+    padding: 4rem;
+}
+.p-5 {
+    padding: 5rem;
 }
