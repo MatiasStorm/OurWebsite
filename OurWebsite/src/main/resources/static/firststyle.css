@@ -6,6 +6,10 @@ body, html {
 body{
     background-color: beige;
 }
+p {
+    background-color: white;
+    color: darkred;
+}
 .cover-image {
     width: 100%;
 }
