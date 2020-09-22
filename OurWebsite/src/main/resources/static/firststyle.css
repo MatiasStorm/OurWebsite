@@ -3,7 +3,7 @@ body, html {
     margin: 0;
 }
 
-.navbar1 {
+.navbar {
     background-color: #333;
     width: 100vw;
     overflow: visible;
@@ -11,7 +11,7 @@ body, html {
     margin: 0;
 }
 
-.navbar1 a {
+.navbar a {
     position: relative;
     display: table-cell;
     vertical-align: middle;
@@ -20,23 +20,23 @@ body, html {
     padding: 0px 15px 0px 15px;
     height: 65px;
     text-decoration: none;
-    color:blue;
+    color: royalblue;
 }
 
-.navbar1 a:hover{
-    background-color: grey;
+.navbar a:hover{
     text-decoration: none;
+    background-color: #444;
 }
 
-.navbar1 a:visited{
-    color: blue;
+.navbar a:visited{
+    color: royalblue;
 }
 
-.navbar-brand1 {
+.navbar-brand {
     font-weight: bold;
     font-size: 30px;
 }
 
-.nav-item1{
+.nav-item{
     font-size: 20px;
 }
