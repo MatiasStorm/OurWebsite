@@ -9,21 +9,12 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav th:fragment="navbar" class="navbar navbar-expand-sm navbar-info bg-dark">
-        <a class="navbar-brand" href="/">Our Website</a>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-control="navbar" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-       <div id="navbar" class="collapse navbar-collapse">
-        <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" href="/alexander">Alexander</a></li>
-            <li class="nav-item"><a class="nav-link" href="/matias">Matias</a></li>
-            <li class="nav-item"><a class="nav-link" href="/daniel">Daniel</a></li>
-        </ul>
-       </div>
-
-    </nav>
+    <div th:replace="/includes/navbar :: navbar"></div>
+<h3> - Matias: </h3>
+<pre> City: Nørrebro
+    <p> <a href="https://www.kk.dk/"> Click here to know about København</a></p>
+    Age: 23
+    </pre>
+<img src="https://www.kk.dk/sites/default/files/styles/flexslider_full/public/uploaded-images/visitcph-0110-800px.jpg?itok=TBh9Cw8j" width="500" height="400" />
 </body>
 </html>

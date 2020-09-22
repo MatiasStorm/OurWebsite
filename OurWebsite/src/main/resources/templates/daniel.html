@@ -9,21 +9,12 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav th:fragment="navbar" class="navbar navbar-expand-sm navbar-info bg-dark">
-        <a class="navbar-brand" href="/">Our Website</a>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-control="navbar" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-       <div id="navbar" class="collapse navbar-collapse">
-        <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" href="/alexander">Alexander</a></li>
-            <li class="nav-item"><a class="nav-link" href="/matias">Matias</a></li>
-            <li class="nav-item"><a class="nav-link" href="/daniel">Daniel</a></li>
-        </ul>
-       </div>
-
-    </nav>
+    <div th:replace="/includes/navbar :: navbar"></div>
+<h3> - Daniel: </h3>
+<pre> City: Sønderborg
+    <p><a href="https://sonderborgkommune.dk">Click here to know about Sønderborg</a></p>
+    Age: 22
+    </pre>
+<img src="https://www.byplanlab.dk/sites/default/files/w12Udflugt%2012%20-%20Offentligt%20private%20partnerskaber%20i%20S%C3%B8nderborg.jpg" height="400" width="500"/>
 </body>
 </html>

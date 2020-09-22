@@ -8,7 +8,7 @@ public class MyController {
 
     @GetMapping("/")
     public String index(){
-        return "headPage";
+        return "index";
     }
 
     @GetMapping("/aboutUs")
@@ -21,5 +21,19 @@ public class MyController {
         return "navbar";
     }
 
+    @GetMapping("/matias")
+    public String matias(){
+        return "matias";
+    }
+
+    @GetMapping("/alexander")
+    public String alexander(){
+        return "alexander";
+    }
+
+    @GetMapping("/daniel")
+    public String daniel(){
+        return "daniel";
+    }
 
 }
