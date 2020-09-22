@@ -32,10 +32,6 @@ body{
     color: beige;
 }
 
-.navbar a:visited{
-    color: beige;
-}
-
 .navbar-brand {
     font-weight: bold;
     font-size: 30px;
@@ -45,4 +41,8 @@ body{
 .nav-item{
     font-size: 20px;
     line-height: 60px;
+}
+
+.nav-item:hover {
+    color: moccasin;
 }
