@@ -1,8 +1,42 @@
-body{
- background-color: red;
+body, html {
+    padding: 0;
+    margin: 0;
 }
 
-.navbar {
+.navbar1 {
+    background-color: #333;
+    width: 100vw;
+    overflow: visible;
+    height: 65px;
+    margin: 0;
+}
+
+.navbar1 a {
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    transition: all 0.3s ease;
+    padding: 0px 15px 0px 15px;
+    height: 65px;
+    text-decoration: none;
+    color:blue;
+}
+
+.navbar1 a:hover{
     background-color: grey;
-    display: inline;
+    text-decoration: none;
+}
+
+.navbar1 a:visited{
+    color: blue;
+}
+
+.navbar-brand1 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.nav-item1{
+    font-size: 20px;
 }
