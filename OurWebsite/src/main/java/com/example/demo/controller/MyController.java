@@ -21,9 +21,9 @@ public class MyController {
         return "navbar";
     }
 
-    @GetMapping("/hardisk")
+    @GetMapping("/harddisk")
     public String hardisk(){
-        return "Hardisk";
+        return "harddisk";
     }
 
     @GetMapping("/CPU")
