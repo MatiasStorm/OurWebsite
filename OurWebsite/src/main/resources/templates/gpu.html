@@ -36,10 +36,21 @@
         <div class="section-lightgrey ">
             <h2 >Largest GPU companies</h2>
             <div style="max-height: 500px" class="display-center">
-                <img class="card image-size m-1" src="/images/nvidia.jpg" alt="">
-                <img class="card image-size m-1" src="/images/amd.jpg" alt="">
+                <img id="nvidia_img" class="card image-size m-1" style="cursor: pointer;" src="/images/nvidia.jpg" alt="">
+                <img id="amd_img" class="card image-size m-1" style="cursor: pointer;" src="/images/amd.jpg" alt="">
             </div>
         </div>
     </div>
 </body>
+    <script>
+        document.getElementById("nvidia_img").onclick = () => {
+            window.open("https://www.nvidia.com/da-dk/")
+        }
+
+        document.getElementById("amd_img").onclick = () => {
+            window.open("https://www.amd.com/en")
+        }
+
+    
+    </script>
 </html>
