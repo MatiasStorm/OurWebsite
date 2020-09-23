@@ -1,7 +1,9 @@
 # Our Website
-School assignment from the 2. semester of the computer science degree at KEA.
+A website displaying information about computer components, such as CPU, GPU and RAM.
 
 ## Assignment
+School assignment from the 2. semester of the computer science degree at KEA.
+
 ### Description
 Create a simple website with spring-boot and thymeleaf. 
 
@@ -14,9 +16,14 @@ You have 1 week.
  - (Optional) Experiment with JavaScript.
 
 ## Run
+### Linux & macOS
 ```
-OurWebsite$ cd OurWebsite
-OurWebsite/OurWebsite$ ./mvnw spring-boot:run    
+./OurWebsite/mvnw spring-boot:run    
+```
+
+### Windows
+```
+OurWebsite/mvnw.cmd spring-boot:run
 ```
 
 Go to [localhost:8080]( http://localhost:8080 )
